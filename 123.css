@@ -1,0 +1,289 @@
+header{
+    text-align:center;
+    background:#A6FA6F;
+  }
+aside{
+    text-align: center;
+    background: #0080FF;
+}
+  article {
+    float:left; 
+    width:595px;
+    margin:5px;
+    padding-left:5px;
+    text-align:center;
+    background:#7BE7BE;
+  }
+section {
+    float:right;
+    margin:10px auto;
+    width:1250px;
+    background:#000000
+  }
+
+.fon_{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0px;
+    top: 0px;
+    background-image: -webkit-linear-gradient(top, #011428, #032a54);
+   
+}
+.niz{
+    background-color: #29689A;
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    bottom: 0px;
+}
+.emb_{
+    margin-left: 8px;
+    margin-top: 1px;
+    border-right: 20px solid white;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    height: 14px;
+    width: 0;
+}
+.lin1{
+    position: relative;
+    width: 25px;
+    height: 2px;
+    margin-top: 6px;
+    background-color: #29689A;
+}
+.lin2{
+
+    width: 2px;
+    height: 25px;
+    position: relative;
+    margin-left: 8px;
+    margin-top: -10px;
+    background-color: #29689A;
+}
+.okno{
+    position: relative;
+    width: 512px;
+    height: 384px;
+    background-color: rgba(235,235,235,1);
+    
+     margin-left: 100px;
+    border-radius: 1px;
+}
+.okno h6{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Trebuchet MS";
+    }
+.foot{
+    position: relative;
+    top: -56px;
+}
+.reg_ {
+    background: rgba(253,250,250,0);
+    position: relative;
+    width:494px;
+    float: bottom;
+    top: 2px;
+    margin-left: 20px;
+    font-family: "Trebuchet MS";
+    font-size: 15px;
+  }
+  
+ .reg_inp{
+    left: 150px;
+    position: absolute;
+  }
+.pol{
+    position: relative;
+    top: -80px;
+    left: 145px;
+}
+
+  section h1{
+    color: #E0D8E0;
+    text-align: center;
+    
+  }
+footer{
+    clear: both;
+    background: yellow;
+    height: 15px;
+    padding: 10px;
+}
+footer h1{
+    color: black;
+    text-align: right;
+    font-size: 14px;
+}
+#nav1{
+    background: #FF8000;
+    width: 300px;
+    float: left;
+}
+#nav2{
+    background: #A6FA6F;
+    width: 300px;
+    top: 400px;
+}
+.zamet{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    border-radius: 3px;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+}
+.z_okno{
+    background: rgb(255,255,255);
+    position: relative;
+    width: 280px;
+    height: 450px;
+    top: -40px;
+    left: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+.soob{
+    position: relative;
+    width: 250px;
+    max-width: 265px;
+    left: 5px;
+    height: auto;
+    background: #5EAEFF;
+    border-radius: 3px;
+    margin: 5px;
+}
+.soo{
+    position: relative;
+    width: 240px;
+    left: 5px;
+}
+.add_fon {
+      display: none;
+      margin: 0;
+    }
+    .menu-open .add-fon {
+        background-color: rgba(100,100,100,0.2);
+        position: absolute;
+        z-index: 9998;
+        display: block;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+    }
+
+.okno{
+    display: none;
+}
+.menu-open .okno{
+    
+    margin-left:-256px; 
+    margin-top:-256px;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    width: 512px;
+    height: 384px;
+    display: block !important;
+    background-color: rgba(235,235,235,1);
+    z-index: 9998;
+    border-radius: 1px;
+    -moz-transition: all 1s 0.1s ease-in;
+    -o-transition: all 1s 0.1s ease-in;
+    -webkit-transition: all 1s 0.1s ease-in;
+}
+.menu-open .okno h6{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Trebuchet MS";
+    }
+.reg2{
+    display: none;
+}
+.menu-open .reg2{
+    top: -33px;
+    width:494px;
+    height: 345px;
+    display: block !important;
+    margin-left: 7px; 
+    position: relative;
+    background: rgba(240,240,240,1);
+    border: 2px solid rgba(217,217,217,1); 
+    z-index: 9998;
+}
+
+
+
+.menu-open .pol{
+    position: relative;
+    top: -90px;
+    left: 145px;
+}
+
+.menu-open .knop2{
+    height: 23px;
+    width: 30px;
+    margin-top: 0px;
+    position: absolute;
+    left: 470px;
+    z-index: 9999;
+    cursor: pointer;
+    border-radius: 1px;
+    background: rgba(188,188,188,1);
+ }
+ 
+.menu-open .lin3{
+    -webkit-transform: rotate(225deg);
+    width: 2px;
+    height: 10px;
+    position: relative;
+    left: 14px;
+    top: 5px;
+    background-color:white;
+}
+.menu-open .lin4{
+    -webkit-transform: rotate(225deg);
+    width: 10px;
+    height: 2px;
+    position: relative;
+    right: -10px;
+    bottom: 1px;
+    background-color:white;
+}
+
+.menu-open .foot{
+    position: absolute;
+    top: -30px;
+}
+.tabl{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.menu-open .knop{
+    left: -50px;
+    bottom: -40px;
+    position: relative;
+}
+.menu-open .okno:hover {
+background-color: #97CE68;
+color: #000;
+-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+}
+.zamet:hover{
+background-color: #97CE68;
+position: absolute;
+height: 520px;
+-webkit-transform: translate(0px,-100px);
+-moz-transform: translate(0px,-100px);
+-o-transform: translate(0px,-100px);
+}
